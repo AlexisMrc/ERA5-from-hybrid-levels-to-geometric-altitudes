@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains scripts designed to download and process ERA5 reanalysis data. The script `test_year_1999.nc` in the `/tests` directory downloads temperature (t) and specific humidity (q) on 137 hybrid levels, and geopotential (z) and log of surface pressure (lnsp) on one level for a specified grid and year. These data are first downloaded and saved in the '/Data/1999' directory. These variables are then used to compute geopotential (z) on 137 levels. The interpolated temperature and pressure fields on the chosen altitude range are saved in the `/Outputs` directory as NetCDF files.
+This repository contains scripts designed to download and process ERA5 reanalysis data. The script `test_year_1999.nc` in the `/tests` directory downloads temperature (t) and specific humidity (q) on 137 hybrid levels, and geopotential (z) and log of surface pressure (lnsp) on one level for a specified grid and year. These data are first downloaded and saved in the `/Data/1999` directory. These variables are then used to compute geopotential (z) on 137 levels. The interpolated temperature and pressure fields on the chosen altitude range are saved in the `/Outputs` directory as NetCDF files.
 
 ## Contents
 
